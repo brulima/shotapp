@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'CodeLight';
+	src: url(../fonts/codelight.ttf);
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../font/OpenSans-Light.ttf);
+}
+body {
+	background-color: rgba(56, 103, 1, 0.98);
+	padding: 0;
+	margin: 0;
+}
+#body-div {
+	background-color: #F1F1F1;
+	text-align: center;
+	padding: 5%;
+}
+#shot-app-id {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 4em;
+	text-shadow: black 1px 1px 1px;
+	text-align: center;
+}
+.menu {
+	display: inline-table;
+	width: 35%;
+	margin-bottom: 5%;
+	margin-top: 1%;
+}
+.menu .menu-item {
+	float: left;
+	margin: 0;
+	color: rgba(56, 103, 1, 0.98);
+	border-bottom: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8em;
+	background-color: #DFDFDF;
+	padding: 2% 3%;
+	width: 43.7%;
+	font-weight: bolder;
+}
+.menu .menu-item a {
+	text-decoration: none;
+	color: rgba(56, 103, 1, 0.98);
+}
+.menu-title {
+	background-color: rgba(56, 103, 1, 0.98);
+	border-right: 1px solid #c8c8c8;
+	margin: 0%;
+	margin-top: 10%;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 2em;
+	text-shadow: black 1px 1px 1px;
+}
+#buy-service-logo {
+	float: right;
+	width: 10%;
+}
