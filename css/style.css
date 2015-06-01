@@ -105,6 +105,7 @@ body {
 		width: 100%;
 	}
 	#buy-service-logo {
+		float: none;
 		width: 30%;
 	}
 }
