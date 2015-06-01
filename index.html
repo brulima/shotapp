@@ -6,22 +6,30 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1 id="shot-app-id">ShotApp</h1>
+	<header>
+		<div id="radio-div"></div>
+		<h1 id="shot-app-id">ShotApp</h1>
+	</header>
 	<div id="body-div">
 		<div>
 			<nav class="menu">
-				<p class="menu-item"><a href="">SMS</a></p>	
-				<p class="menu-item"><a href="">Whats</a></p>	
+				<h2 class="menu-title">Login</h2>
+				<a href="sms/"><p class="menu-item">SMS</p></a>
+				<a href="whats/"><p class="menu-item">Whats</p></a>
 			</nav>
 		</div>
 		<div>
 			<nav class="menu">
 				<h2 class="menu-title">Rádios</h2>
-				<p class="menu-item"><a href="">Buy Service</a></p>	
-				<p class="menu-item"><a href="">BS Gospel</a></p>	
+				<a><p data-link="http://srvstm.com/player-barra/18668/386701" data-name="BuyService" class="radio menu-item">Buy Service</p></a>
+				<a><p data-link="http://srvstm.com/player-barra/18668/000000" data-name="BSGospel" class="radio menu-item">BS Gospel</p></a>
 			</nav>
 		</div>
 		<img id="buy-service-logo" src="img/logo1.png" />
 	</div>
+	<footer>
+		<p class="footer-powered">Powered by <a target="_blank" href="http://brulima.github.io/">Bruna Lima</a></p>
+	</footer>
+	<script type="text/javascript" src="js/app.min.js"></script>
 </body>
 </html>
